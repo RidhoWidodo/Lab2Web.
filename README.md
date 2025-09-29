@@ -7,7 +7,7 @@
 
 # Tugas 1
 
-1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS.   
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.   
    ```css
    body {
     font-family: 'Open Sans', sans-serif;
@@ -25,7 +25,7 @@
    }
    ```
    
-2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!   
+2. Apa perbedaan pendeklarasian CSS elemen **h1 {...}** dengan **#intro h1 {...}**? berikan penjelasannya!   
    - `h1 { ... }` → berlaku untuk semua elemen `<h1>` di halaman.
    - `#intro h1 { ... }` → hanya berlaku untuk `<h1>` yang ada di dalam elemen dengan `id="intro"`.  
    *Contoh*
