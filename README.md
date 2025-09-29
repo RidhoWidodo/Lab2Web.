@@ -6,7 +6,6 @@
 *Kelas : TI.24 A2*
 
 # Tugas 1
-
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.   
    ```css
    body {
