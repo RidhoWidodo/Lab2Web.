@@ -1,1 +1,49 @@
 # Lab2Web.
+*Nama : Muhammad Ridho Hafiedz*
+
+*Nim :312410195*
+
+*Kelas : TI.24 A2*
+
+# Tugas 1
+
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS.   
+   ```css
+   body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0;
+   }
+   h1 {
+    font-size: 28px;
+    color: darkblue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   }
+   p {
+    color: #444;
+    line-height: 1.6;
+   }
+   ```
+   
+2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!   
+   - `h1 { ... }` → berlaku untuk semua elemen `<h1>` di halaman.
+   - `#intro h1 { ... }` → hanya berlaku untuk `<h1>` yang ada di dalam elemen dengan `id="intro"`.  
+   *Contoh*
+  ```css
+     h1 { color: red; }
+     #intro h1 { color: blue;}
+```
+
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!   
+   - Urutan prioritas: **Inline > Internal > Eksternal**.
+   *Contoh*
+```html
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p { color: green; }
+    </style>
+</head>
+<body>
+    <p style="color: red;">Teks Contoh</p>
+</body>
