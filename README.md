@@ -47,3 +47,15 @@
 <body>
     <p style="color: red;">Teks Contoh</p>
 </body>
+```
+
+4.  Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! `( <p id="paragraf-1" class="text-paragraf"> )`   
+*Contoh*
+```html
+<p id="paragraf-1" class="text-paragraf">Teks Contoh</p>
+```
+```css
+.text-paragraf { color: green; }
+#paragraf-1 { color: blue; }
+```
+# Tugas2
